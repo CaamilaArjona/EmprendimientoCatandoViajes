@@ -1,0 +1,125 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    
+}
+
+
+.header-logo{ 
+    width: 150px;
+    height: 100px;
+   
+}
+
+header { 
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    height: 100px;
+}
+
+ul{ 
+    display: flex;
+    flex-direction: row; 
+    list-style: none; 
+}
+
+ul li{ 
+    padding: 0px 10px;
+   
+}
+
+header p
+header ul li{ 
+    color: white;
+}
+
+
+body { 
+
+    background: url(../assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    
+  
+}
+
+h2{ 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0px;
+    color: white;
+}
+
+p{ 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0px;
+    color: white;
+}
+
+
+.subtitulo{ 
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0px;
+    color: white;
+    
+}
+
+
+
+
+footer{ 
+  
+    text-align: center;
+    font-weight: bold; 
+
+}
+
+.destinos{ 
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+figure { 
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+ figcaption{ 
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 94%;
+    padding: 3%;
+}
+
+img{ 
+    width: 300px;
+    height: 300px;
+}
+
+.link{ 
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 94%;
+    padding: 3%;
+}
+
+
+
