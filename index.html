@@ -6,6 +6,7 @@
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link rel="shortcut icon" href="./assets/Logo.jpg">
         <link rel="stylesheet" href="css/style.css">
         <title>Catando Viajes</title>
@@ -16,12 +17,20 @@
         <header>
             
             <p><img src="assets/Logo.jpg"class="header-logo" alt="aqui va el logo" aling="top"></p>
-            <ul>
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="./pages/destinos.html">Destinos</a></li>
-                <li> <a href="./pages/sobre-mi.html">Sobre mi</a></li>
-                <li> <a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+            
+            <input type="checkbox" id="menu-check">
+            <label id="menu" for="menu-check">
+                <span id="menu-abrir">&#9776;</span>
+                <span id="menu-cerrar">x</span>
+            </label>
+            
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="./pages/destinos.html">Destinos</a></li>
+                    <li> <a href="./pages/sobre-mi.html">Sobre mi</a></li>
+                    <li> <a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
             </nav>
 
             
@@ -43,14 +52,11 @@
 
         </main>
 
-        
-
-            
-
 
             <footer>
             <a href="https://instagram.com/catandoviajess?igshid=YmMyMTA2M2Y=">Instagram</a>
             <a href="https://www.youtube.com/@catandoviajess/featured">YouTube</a>
+            <p class="aclaracion">Todos los derechos reservados.</p>
             </footer>
 
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
