@@ -1,0 +1,19 @@
+//base
+@import "./base/variables.scss";
+@import "./base/reset.scss";
+
+
+//components
+@import "./components/buttons.scss";
+
+//layout
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+//utilities
+@import "./utilities/condicionales.scss";
+
+//views
+
+@import "./views/contact.scss";
+@import "./views/home.scss";

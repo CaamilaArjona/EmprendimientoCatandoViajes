@@ -1,0 +1,39 @@
+header{ 
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $primary_color;
+    align-items: center;
+    height: 100px;
+
+    .header-logo{ 
+        width: 150px;
+        height: 100px; 
+    }
+
+    #menu, #menu-check{ 
+        display: none;
+    } 
+
+    ul{ 
+        display: flex;
+        flex-direction: row; 
+        list-style: none; 
+    
+        li{ 
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    a:link {
+            text-decoration: none;
+            color: $secondary_color;
+    } 
+
+    a:visited {
+        text-decoration: none;
+        color: $secondary_color;
+    } 
+}
