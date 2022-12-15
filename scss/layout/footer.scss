@@ -1,19 +1,20 @@
 footer{ 
     
     background-color: $primary_color;
-    padding: 1em 0;
+    padding:  0;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 120px;
 
 }
 
 .instagram{ 
     
-        width: 50px;
-        height: 50px;
-        color: $secondary_color;
+    width: 50px;
+    height: 50px;
+    color: $secondary_color;
 
 }
 

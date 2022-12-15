@@ -52,6 +52,7 @@ body {
     background-attachment: fixed;
     color: white;
     
+    
 }
 
 
@@ -285,53 +286,46 @@ h1{
         text-align: right;
     }
 
+} 
 
-    @media only screen and (max-width: 900px){ 
+@media only screen and (max-width: 900px){ 
 
-        body{ 
-            position: relative;
-            padding-bottom: 3em;
-            min-height: 100vh;
-        }
-        footer{ 
-            background-color: white;
-            padding: 0;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-        } 
-        figure img{ 
-            height: 5cm;
-            width: 5cm;
-            display: inline;
-            position: relative;
-            margin-top: 3px;
-        }
-        #nota{  
-            vertical-align: text-bottom;
-            font-weight: bold;
-            font-size: 20px;
-            margin: 10px;
-        }
-        #exampleInputEmail1{  
-            width: 200px;
-            height: 30px;
-        }
-        #exampleInputComent{  
-            width: 200px;
-            height: 60px;
-        }
-       
+    body{ 
+        position: relative;
+        padding-bottom: 3em;
+        min-height: 100vh;
+    }
+    footer{ 
+        background-color: white;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    } 
+    figure img{ 
+        height: 5cm;
+        width: 5cm;
+        display: inline;
+        position: relative;
+        margin-top: 3px;
+    }
+    #nota{  
+        vertical-align: text-bottom;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px;
        
     }
-
-
-
-
-
-
-
-} 
+    #exampleInputEmail1{  
+        width: 200px;
+        height: 30px;
+    }
+    #exampleInputComent{  
+        width: 200px;
+        height: 60px;
+    }
+   
+}
 
 
 

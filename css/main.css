@@ -48,6 +48,9 @@ body {
       bottom: 0px;
       width: 95%;
       padding: 3%; }
+  body .informacion {
+    text-align: center;
+    text-indent: 1cm; }
   body h1 {
     text-align: center;
     font-weight: bold;
@@ -73,6 +76,9 @@ body {
       color: white; }
   body div.reset {
     clear: both; }
+  body #exampleInputComent {
+    width: 350px;
+    height: 100px; }
 
 .boton {
   padding: 10px;
@@ -83,11 +89,12 @@ body {
 
 footer {
   background-color: #FFFFFF;
-  padding: 1em 0;
+  padding: 0;
   text-align: center;
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  height: 120px; }
 
 .instagram {
   width: 50px;
@@ -179,23 +186,23 @@ header {
     display: block;
     text-align: right; } }
 
-@media only screen and (max-width: 700px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   body body {
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh; }
+  body .pie {
+    position: relative; }
   body footer {
-    background-color: #FFFFFF;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0; }
+    padding: 0; }
   body figure img {
     height: 5cm;
     width: 5cm;
     display: inline;
     position: relative;
     margin-top: 3px; }
+  body .yo {
+    float: none; }
   body #nota {
     vertical-align: text-bottom;
     font-weight: bold;
@@ -207,3 +214,11 @@ header {
   body #exampleInputComent {
     width: 200px;
     height: 60px; } }
+
+@media only screen and (max-width: 1200px) {
+  body .pie {
+    position: relative; } }
+
+@media only screen and (max-width: 1500px) {
+  body .pie {
+    position: relative; } }
